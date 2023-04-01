@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Stylesheet Link -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <main>
+    <section class="aside">
+      
+        <div class="side-bar">
+          <img src="./image-jeremy.png" alt="jeremy">
+          <p>Report for</p>
+          <h1>Jeremy<br>Robson</h1>
+        </div>
+
+        <div class="timeline">
+            <p id="daily" class="duration">Daily</p>
+            <p id="weekly" class="duration">Weekly</p>
+            <p id="monthly" class="duration">Monthly</p>
+      </div>
+    </section>
+
+    <section class="main-bar">
+        <div class="top-bar">
+            <div class="work">
+              <img src="./icon-work.svg" alt="work">
+              <div class="work-detail">
+                <p>Work</p>
+                <h2><span id="work-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="previous">0</span>hrs</h3>
+              </div>
+            </div>
+
+            <div class="play">
+              <img src="./icon-play.svg" alt="work">
+              <div class="play-detail">
+                <p>Play</p>
+                <h2><span id="play-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="play-prev-week">0</span>hrs</h3>
+              </div>
+            </div>
+
+            <div class="study">
+              <img src="./icon-study.svg" alt="work">
+              <div class="study-detail">
+                <p>Study</p>
+                <h2><span id="study-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="study-prev-week">0</span>hrs</h3>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="bottom-bar">
+            <div class="exercise">
+              <img src="./icon-exercise.svg" alt="work">
+              <div class="exercise-detail">
+                <p>Exercise</p>
+                <h2><span id="exercise-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="exercise-prev-week">0</span>hrs</h3>
+              </div>
+            </div>
+
+            <div class="social">
+              <img src="./icon-social.svg" alt="work">
+              <div class="social-detail">
+                <p>Social</p>
+                <h2><span id="social-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="social-prev-week">0</span>hrs</h3>
+              </div>
+            </div>
+
+            <div class="self-care">
+              <img src="./icon-self-care.svg" alt="work">
+              <div class="self-detail">
+                <p>Self Care</p>
+                <h2><span id="self-hours">0</span>hrs</h2>
+                <h3>Last Week - <span id="self-prev-week">0</span>hrs</h3>
+              </div>
+            </div>
+
+        </div>
+    </section>
+  </main>
+
+
+  
+  <footer>
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="www.upandstarttechnologies.com">Adnan Hamisi</a>.
+    </p>
+  </footer>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
